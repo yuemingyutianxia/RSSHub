@@ -1414,6 +1414,18 @@ category 对应的关键词有
 
 <Route author="LyleLee" example="/reuters/investigates" path="/reuters/investigates" />
 
+## 蒙古之声
+
+### 新闻
+
+<Route author="zphw" example="/vom/featured" path="/vom/featured/:lang?" :paramsDesc="['语言，见下表，默认 `mn`']">
+
+| English | 日本語 | Монгол | Русский | 简体中文 |
+| ------- | --- | ------ | ------- | ---- |
+| en      | ja  | mn     | ru      | zh   |
+
+</Route>
+
 ## 明报
 
 ### 即时新闻
@@ -1972,6 +1984,12 @@ category 对应的关键词有
 | 全部新闻  | 港股直击  | 香港财经     | 中国财经  | 国际财经          | 地产新闻     | 时事脉搏    |
 
 </Route>
+
+## 星島日報
+
+### 即時
+
+<Route author="TonyRL" example="/stheadline/std/realtime/即時" path="/stheadline/std/realtime/:category*" :paramsDesc="['分類路徑，URL 中 `/realtime/` 後的部分，預設為`即時`']" radar ="1" rssbud="1"/>
 
 ## 星洲网
 
