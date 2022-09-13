@@ -1812,6 +1812,9 @@
     "/ithome/tag/:name": [
         "Fatpandac"
     ],
+    "/ithome/tw/feeds/:category": [
+        "miles170"
+    ],
     "/ithome/zt/:id": [
         "nczitzk"
     ],
@@ -4112,6 +4115,9 @@
     ],
     "/zju/physics/:type": [
         "Caicailiushui"
+    ],
+    "/zodgame/forum/:fid?": [
+        "FeCCC"
     ],
     "/zooTeam/zooTeam/blog": [
         "Pulset"

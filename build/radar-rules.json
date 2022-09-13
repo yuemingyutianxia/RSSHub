@@ -7197,6 +7197,20 @@
       }
     ]
   },
+  "ithome.com.tw": {
+    "_name": "iThome",
+    "www": [
+      {
+        "title": "Feeds",
+        "docs": "https://docs.rsshub.app/new-media.html#ithome-tai-wan",
+        "source": [
+          "/:category",
+          "/:category/feeds"
+        ],
+        "target": "/ithome/tw/feeds/:category"
+      }
+    ]
+  },
   "iwara.tv": {
     "_name": "iwara",
     "ecchi": [
@@ -16397,6 +16411,16 @@
           "/*path",
           "/"
         ]
+      }
+    ]
+  },
+  "zodgame.xyz": {
+    "_name": "zodgame",
+    ".": [
+      {
+        "title": "论坛版块",
+        "docs": "https://docs.rsshub.app/bbs.html#zodgame",
+        "source": "/forum.php"
       }
     ]
   },
