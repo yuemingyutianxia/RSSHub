@@ -593,6 +593,12 @@
     "/bupt/rczp": [
         "nczitzk"
     ],
+    "/bytes": [
+        "meixger"
+    ],
+    "/bytes/": [
+        "meixger"
+    ],
     "/c114/roll": [
         "nczitzk"
     ],
@@ -2022,6 +2028,9 @@
         "Derekmini",
         "auto-bot-ty"
     ],
+    "/ieee-security/security-privacy": [
+        "ZeddYu"
+    ],
     "/ielts/": [
         "zenxds"
     ],
@@ -2595,6 +2604,9 @@
     "/macfilos/blog": [
         "nczitzk"
     ],
+    "/mangadex/:id/:lang?": [
+        "vzz64"
+    ],
     "/manhuagui/comic/:id/:chapterCnt?": [
         "MegrezZhu"
     ],
@@ -2741,6 +2753,9 @@
     ],
     "/ncwu/note": [
         "vuhe"
+    ],
+    "/ndss-symposium/ndss": [
+        "ZeddYu"
     ],
     "/neatdownloadmanager/download/:os?": [
         "nczitzk"
@@ -3394,6 +3409,12 @@
     "/rarehistoricalphotos/": [
         "TonyRL"
     ],
+    "/reactnewsletter": [
+        "meixger"
+    ],
+    "/reactnewsletter/": [
+        "meixger"
+    ],
     "/remnote/changelog": [
         "TonyRL"
     ],
@@ -3577,6 +3598,9 @@
     ],
     "/sicau/zsjy/:category?": [
         "nczitzk"
+    ],
+    "/sigsac/ccs/": [
+        "ZeddYu"
     ],
     "/simpleinfo/:category?": [
         "haukeng"
@@ -4097,6 +4121,9 @@
     "/uraaka-joshi/:id": [
         "SettingDust",
         "Halcao"
+    ],
+    "/usenix/usenix-security-sympoium": [
+        "ZeddYu"
     ],
     "/usepanda/feeds/:id": [
         "lyrl"
