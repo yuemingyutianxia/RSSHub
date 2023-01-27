@@ -6222,6 +6222,31 @@
                     const id = matches ? matches[1] : params.id;
                     return `/mirror/${id}`;
                 } } ] },
+  "mixcloud.com":{ _name:"Mixcloud",
+    www:[ { title:"User",
+        docs:"https://docs.rsshub.app/multimedia.html#mixcloud",
+        source:[ "/:username/:type?" ],
+        target:(params) => {
+                    if (params.username !== undefined) {
+                        if (['stream', 'uploads', 'favorites', 'listens'].includes(params.type)) {
+                            return `/mixcloud/${params.username}/${params.type}`;
+                        } else if (params.type === undefined) {
+                            return `/mixcloud/${params.username}/uploads`;
+                        }
+                    }
+                } } ],
+    ".":[ { title:"User",
+        docs:"https://docs.rsshub.app/multimedia.html#mixcloud",
+        source:[ "/:username/:type?" ],
+        target:(params) => {
+                    if (params.username !== undefined) {
+                        if (['stream', 'uploads', 'favorites', 'listens'].includes(params.type)) {
+                            return `/mixcloud/${params.username}/${params.type}`;
+                        } else if (params.type === undefined) {
+                            return `/mixcloud/${params.username}/uploads`;
+                        }
+                    }
+                } } ] },
   "mobilism.org":{ _name:"Mobilism",
     ".":[ { title:"论坛",
         docs:"https://docs.rsshub.app/bbs.html#mobilism",
@@ -8130,14 +8155,18 @@
         target:"/ruancan" },
       { title:"分类",
         docs:"https://docs.rsshub.app/new-media.html#ruan-can-fen-lei",
-        source:[ "/sort/:sort",
+        source:[ "/cat/:category",
           "/" ],
-        target:"/ruancan/sort/:sort" },
-      { title:"标签",
-        docs:"https://docs.rsshub.app/new-media.html#ruan-can-biao-qian",
-        source:[ "/tag/:tag",
+        target:"/ruancan/category/:category" },
+      { title:"搜索",
+        docs:"https://docs.rsshub.app/new-media.html#ruan-can-sou-suo",
+        source:[ "/" ],
+        target:(params, url) => `/ruancan/search/${new URL(url).searchParams.get('s')}` },
+      { title:"用户文章",
+        docs:"https://docs.rsshub.app/new-media.html#ruan-can-yong-hu-wen-zhang",
+        source:[ "/i/:id",
           "/" ],
-        target:"/ruancan/tag/:tag" } ] },
+        target:"/ruancan/user/:id" } ] },
   "ruc.edu.cn":{ _name:"中国人民大学",
     hr:[ { title:"人事处",
         docs:"https://docs.rsshub.app/university.html#zhong-guo-ren-min-da-xue-ren-shi-chu",
