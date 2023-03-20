@@ -3626,6 +3626,19 @@
       }
     ]
   },
+  "cgtn.com": {
+    "_name": "中国环球电视网 CGTN",
+    ".": [
+      {
+        "title": "播客",
+        "docs": "https://docs.rsshub.app/traditional-media.html#zhong-guo-huan-qiu-dian-shi-wang",
+        "source": [
+          "/podcast/column/:category/*/:id"
+        ],
+        "target": "/cgtn/podcast/:category/:id"
+      }
+    ]
+  },
   "chaincatcher.com": {
     "_name": "链捕手 ChainCatcher",
     ".": [
@@ -6521,6 +6534,19 @@
       }
     ]
   },
+  "fishshell.com": {
+    "_name": "fish shell",
+    ".": [
+      {
+        "title": "Release Notes",
+        "docs": "https://docs.rsshub.app/program-update.html#fish-shell",
+        "source": [
+          "/"
+        ],
+        "target": "/fishshell"
+      }
+    ]
+  },
   "fjksbm.com": {
     "_name": "福建考试报名网",
     ".": [
@@ -9412,6 +9438,17 @@
           "/:lang/press/index.html"
         ],
         "target": "/icac/news/:lang"
+      }
+    ]
+  },
+  "idolypride.jp": {
+    "_name": "偶像荣耀",
+    ".": [
+      {
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/anime.html#ou-xiang-rong-yao",
+        "source": "/news",
+        "target": "/idolypride/news"
       }
     ]
   },
@@ -15002,6 +15039,16 @@
       }
     ]
   },
+  "openai.com": {
+    "_name": "OpenAI",
+    ".": [
+      {
+        "title": "Blog",
+        "docs": "https://docs.rsshub.app/en/new-media.html#openai",
+        "source": "/blog"
+      }
+    ]
+  },
   "openwrt.org": {
     "_name": "Openwrt",
     ".": [
@@ -16105,7 +16152,15 @@
         "source": "/mp/appmsgalbum"
       }
     ],
-    "news": [
+    "new": [
+      {
+        "title": "腾讯企鹅号 - 更新",
+        "docs": "https://docs.rsshub.app/new-media.html#teng-xun-qi-e-hao-geng-xin",
+        "source": [
+          "/omn/author/:mid"
+        ],
+        "target": "/tencent/news/author/:mid"
+      },
       {
         "title": "腾讯新闻 - 新型冠状病毒肺炎疫情实时追踪",
         "docs": "https://docs.rsshub.app/other.html#xin-guan-fei-yan-yi-qing-xin-wen-dong-tai",
@@ -19415,6 +19470,89 @@
       }
     ]
   },
+  "uestc.edu.cn": {
+    "_name": "电子科技大学",
+    "gr": [
+      {
+        "title": "研究生院",
+        "docs": "https://docs.rsshub.app/university.html#dian-zi-ke-ji-da-xue",
+        "source": [
+          "/"
+        ],
+        "target": "/uestc/gr"
+      }
+    ],
+    "cqe": [
+      {
+        "title": "大学生文化素质教育中心",
+        "docs": "https://docs.rsshub.app/university.html#dian-zi-ke-ji-da-xue",
+        "source": [
+          "/"
+        ],
+        "target": "/uestc/cqe"
+      }
+    ],
+    "jwc": [
+      {
+        "title": "教务处",
+        "docs": "https://docs.rsshub.app/university.html#dian-zi-ke-ji-da-xue",
+        "source": [
+          "/"
+        ],
+        "target": "/uestc/jwc"
+      }
+    ],
+    "news": [
+      {
+        "title": "新闻网",
+        "docs": "https://docs.rsshub.app/university.html#dian-zi-ke-ji-da-xue",
+        "source": [
+          "/"
+        ],
+        "target": "/uestc/news"
+      }
+    ],
+    "auto": [
+      {
+        "title": "自动化学院",
+        "docs": "https://docs.rsshub.app/university.html#dian-zi-ke-ji-da-xue",
+        "source": [
+          "/"
+        ],
+        "target": "/uestc/auto"
+      }
+    ],
+    "scse": [
+      {
+        "title": "计算机学院",
+        "docs": "https://docs.rsshub.app/university.html#dian-zi-ke-ji-da-xue",
+        "source": [
+          "/"
+        ],
+        "target": "/uestc/scse"
+      }
+    ],
+    "sice": [
+      {
+        "title": "信通学院",
+        "docs": "https://docs.rsshub.app/university.html#dian-zi-ke-ji-da-xue",
+        "source": [
+          "/"
+        ],
+        "target": "/uestc/sice"
+      }
+    ],
+    "sise": [
+      {
+        "title": "信软学院",
+        "docs": "https://docs.rsshub.app/university.html#dian-zi-ke-ji-da-xue",
+        "source": [
+          "/"
+        ],
+        "target": "/uestc/sise"
+      }
+    ]
+  },
   "uibe.edu.cn": {
     "_name": "对外经济贸易大学",
     "hr": [
@@ -20689,6 +20827,18 @@
         "docs": "https://docs.rsshub.app/university.html#xi-an-jiao-tong-da-xue",
         "source": [
           "/*"
+        ]
+      }
+    ]
+  },
+  "xkb.com.cn": {
+    "_name": "新快报",
+    ".": [
+      {
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/traditional-media.html#xin-kuai-bao",
+        "source": [
+          "/"
         ]
       }
     ]
