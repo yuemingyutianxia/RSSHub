@@ -783,8 +783,13 @@
     "/caixin/:column/:category": [
         "idealclover"
     ],
-    "/cankaoxiaoxi/news/:category": [
-        "yuxinliu-alex"
+    "/cankaoxiaoxi/column/:id?": [
+        "yuxinliu-alex",
+        "nczitzk"
+    ],
+    "/cankaoxiaoxi/:id?": [
+        "yuxinliu-alex",
+        "nczitzk"
     ],
     "/cartoonmad/comic/:id": [
         "KellyHwong"
@@ -926,6 +931,9 @@
     ],
     "/chsi/kydt": [
         "SunBK201"
+    ],
+    "/chsi/kyzx/:type": [
+        "yanbot-team"
     ],
     "/ciidbnu/:id?": [
         "nczitzk"
@@ -2097,6 +2105,12 @@
         "DHPO",
         "hoilc"
     ],
+    "/gzdaily/app/:column?": [
+        "TimWu007"
+    ],
+    "/gzdaily/cmc/:channel?": [
+        "TimWu007"
+    ],
     "/gzh360/category/:id?": [
         "Rongronggg9"
     ],
@@ -3104,6 +3118,18 @@
     "/mobilism/portal/:type/:fulltext?": [
         "nitezs"
     ],
+    "/modelscope/community": [
+        "TonyRL"
+    ],
+    "/modelscope/datasets": [
+        "TonyRL"
+    ],
+    "/modelscope/models": [
+        "TonyRL"
+    ],
+    "/modelscope/studios": [
+        "TonyRL"
+    ],
     "/mohw/clarification": [
         "nczitzk"
     ],
@@ -3240,6 +3266,14 @@
     ],
     "/ngocn2/:category?": [
         "nczitzk"
+    ],
+    "/nhentai/search/:keyword/:mode?": [
+        "MegrezZhu",
+        "hoilc"
+    ],
+    "/nhentai/:key/:keyword/:mode?": [
+        "MegrezZhu",
+        "hoilc"
     ],
     "/nifd/research/:categoryGuid?": [
         "Fatpandac"
@@ -5768,8 +5802,6 @@
     "/chouti/top/:hour?": [],
     "/chouti/:subject?": [],
     "/westore/new": [],
-    "/nhentai/search/:keyword/:mode?": [],
-    "/nhentai/:key/:keyword/:mode?": [],
     "/ltaaa/:category?": [],
     "/autotrader/:query": [],
     "/geekpark/breakingnews": [],
